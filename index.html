@@ -242,6 +242,98 @@
 
 <p>效果：</p>
 <h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3></blockquote>
+<h1 id="二、段落"><a href="#二、段落" class="headerlink" title="二、段落"></a>二、段落</h1><p>1.markdown的段落</p>
+<blockquote>
+<p>语法：段落的换行是使用两个以上的空格加上回车</p>
+</blockquote>
+<h1 id="三、字体"><a href="#三、字体" class="headerlink" title="三、字体"></a>三、字体</h1><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">*斜体文本*</span><br><span class="line">_斜体文本_</span><br><span class="line">**粗体文本**</span><br><span class="line">__粗体文本__</span><br><span class="line">***粗斜体文本***</span><br><span class="line">___粗斜体文本___</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<p><em>斜体文本</em><br><em>斜体文本</em><br><strong>粗体文本</strong><br><strong>粗体文本</strong><br><strong><em>粗斜体文本</em></strong><br><strong><em>粗斜体文本</em></strong></p>
+<h1 id="四、分割线"><a href="#四、分割线" class="headerlink" title="四、分割线"></a>四、分割线</h1><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">***</span><br><span class="line">* * *</span><br><span class="line">*****</span><br><span class="line">- - -</span><br><span class="line">---------</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<h1 id="五、删除线"><a href="#五、删除线" class="headerlink" title="五、删除线"></a>五、删除线</h1><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~~删除线~~</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<p><del>删除线</del></p>
+<h1 id="六、下划线"><a href="#六、下划线" class="headerlink" title="六、下划线"></a>六、下划线</h1><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;u&gt;带下划线的文本&lt;/u&gt;</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<p><u>带下划线的文本</u></p>
+<h1 id="七、脚注"><a href="#七、脚注" class="headerlink" title="七、脚注"></a>七、脚注</h1><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">厚积薄发[^要注明的脚注]</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<p>厚积薄发[^要注明的脚注]</p>
+<h1 id="八、列表"><a href="#八、列表" class="headerlink" title="八、列表"></a>八、列表</h1><p>语法：无序列表使用星号(*<strong>**)、加号(</strong>+<strong>)或是减号(</strong>-**)作为列表标记，这些标记后面要添加一个空格，然后再填写内容；有序列表使用(.)</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">* 第二项</span><br><span class="line">+ 第三项</span><br><span class="line">- 第四项</span><br><span class="line">1. 第五项</span><br><span class="line">2. 第六项</span><br></pre></td></tr></table></figure>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+</ul>
+<ul>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第四项</li>
+</ul>
+<ol>
+<li>第五项</li>
+<li>第六项</li>
+</ol>
+<h1 id="九、区块"><a href="#九、区块" class="headerlink" title="九、区块"></a>九、区块</h1><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 最外层</span><br><span class="line">&gt;&gt; 第一层嵌套</span><br><span class="line">&gt;&gt;&gt; 第二层嵌套</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>最外层</p>
+<blockquote>
+<p>第一层嵌套</p>
+<blockquote>
+<p>第二层嵌套</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h1 id="十、链接"><a href="#十、链接" class="headerlink" title="十、链接"></a>十、链接</h1><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">markdown的链接使用[百度](http://www.baidu.com)</span><br></pre></td></tr></table></figure>
+<p>markdown的链接使用<a target="_blank" rel="noopener" href="http://www.baidu.com/">百度</a></p>
+<h1 id="十一、高级链接"><a href="#十一、高级链接" class="headerlink" title="十一、高级链接"></a>十一、高级链接</h1><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">通过变量设置一个链接，变量赋值在文档末尾进行：</span><br><span class="line">使用变量1作为链接变量[百度](1)</span><br><span class="line">使用英文作为链接变量[dongdong](DD)</span><br><span class="line"></span><br><span class="line">[1]: http://www.baidu.com/</span><br><span class="line">[DD]: http://www.DD.com/</span><br></pre></td></tr></table></figure>
+<p>通过变量设置一个链接，变量赋值在文档末尾进行：<br>使用变量1作为链接变量<a href="1">百度</a><br>使用英文作为链接变量<a href="DD">dongdong</a></p>
+<h1 id="十二、Markdown图片"><a href="#十二、Markdown图片" class="headerlink" title="十二、Markdown图片"></a>十二、Markdown图片</h1><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![alt 梅西](图片地址)</span><br></pre></td></tr></table></figure>
+<h1 id="十三、Markdown表格"><a href="#十三、Markdown表格" class="headerlink" title="十三、Markdown表格"></a>十三、Markdown表格</h1><p>语法：Markdown 制作表格使用 <strong>|</strong> 来分隔不同的单元格，使用 <strong>-</strong> 来分隔表头和其他行。</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">|表头	|表头	|</span><br><span class="line">|---|---|</span><br><span class="line">|单元格|单元格|</span><br><span class="line">|单元格|单元格|</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+</tbody></table>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">-: 设置内容和标题栏居右对齐。</span><br><span class="line">:- 设置内容和标题栏居左对齐。</span><br><span class="line">:-: 设置内容和标题栏居中对齐。</span><br><span class="line">|左对齐|右对齐|居中对齐|</span><br><span class="line">|:--| --:|:--:|</span><br><span class="line">|单元格|单元格|单元格|</span><br><span class="line">|单元格|单元格|单元格|</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th align="right">右对齐</th>
+<th align="center">居中对齐</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+</tbody></table>
 
       
 
